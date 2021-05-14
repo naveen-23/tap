@@ -2,6 +2,9 @@ twig:
     paths: ['%kernel.project_dir%/templates']
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+    globals:
+        site_name: ProTechStuff
+        base_url: protechstuff.in
 
 services:
     _defaults:

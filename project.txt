@@ -1,0 +1,23 @@
+insert into sylius_product_taxon(product_id,taxon_id,position) values (1,5,0)
+
+// there is error in rendering , 
+so use above query to add additional tax on entry in table so in shop it shows fine 
+
+
+
+Shop user
+
+test@gmail.com
+
+test
+
+admin user
+
+admin@test.com
+admin
+
+
+added phone no validation in 
+
+/usr/local/var/www/tap/vendor/sylius/sylius/src/Sylius/Bundle/AddressingBundle/Form/Type/AddressType.php
+
