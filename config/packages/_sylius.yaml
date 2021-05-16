@@ -257,4 +257,7 @@ sylius_theme:
             directories:
                 - "%kernel.project_dir%/themes"
 
-
+sylius_mailer:
+    sender:
+        name: protechstuff.in
+        address: info@protechstuff.in
