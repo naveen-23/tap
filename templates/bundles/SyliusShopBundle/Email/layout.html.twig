@@ -8,7 +8,7 @@
                     {% if sylius_bundle_loaded_checker('SyliusShopBundle') %}
                         {% set url = channel.hostname is not null ? 'http://' ~ channel.hostname ~ path('sylius_shop_homepage', {'_locale': localeCode}) : url('sylius_shop_homepage', {'_locale': localeCode}) %}
                         <a href="{{ url|raw }}">
-                            <img src="{{ logo }}" alt="Sylius" style="width: 170px">
+                            <img src="{{ logo }}" alt="ProtechStuff" style="width: 170px">
                         </a>
                     {% else %}
                         <img src="{{ logo }}" alt="ProtechStuff" style="width: 170px">
