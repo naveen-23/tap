@@ -260,4 +260,4 @@ sylius_theme:
 sylius_mailer:
     sender:
         name: protechstuff.in
-        address: info@protechstuff.in
+        address: order-info@protechstuff.in
