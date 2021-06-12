@@ -13,8 +13,8 @@ final class SyliusApi
 
     public function __construct(string $merchantKey,string $merchantSalt, string $successUrl, string $failureUrl)
     {
-        $this->merchantKey = 'gtKFFx'; //$merchantKey;
-        $this->merchantSalt = 'wia56q6O'; //$merchantSalt;
+        $this->merchantKey = $merchantKey; //'gtKFFx'; //$merchantKey;
+        $this->merchantSalt = $merchantSalt; //'wia56q6O'; //$merchantSalt;
         $this->successUrl = $successUrl;
         $this->failureUrl = $failureUrl;
     }

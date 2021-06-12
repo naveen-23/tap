@@ -24,7 +24,7 @@ final class CaptureAction implements ActionInterface, ApiAwareInterface
     private $client;
     /** @var SyliusApi */
     private $api;
-    CONST OFFSITE_URL = 'https://test.payu.in/_payment'; // 'https://secure.payu.in/_payment' prod 
+    CONST OFFSITE_URL = 'https://secure.payu.in/_payment' ; //'https://test.payu.in/_payment'; // 'https://secure.payu.in/_payment' prod 
 
     public function __construct(Client $client)
     {
